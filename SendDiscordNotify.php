@@ -145,7 +145,7 @@ add_action( 'comment_post', 'mailNotif', 10, 2 );
 
 //Telegram Notify
 function telegramNotify( $comment_id, $comment_approved, $comment_data ) {
-    $apiToken = "5275941976:AAGS6R28tO--9aedlLB6_VlNDyXPt7p0ruU";
+    $apiToken = "";
     $name = get_bloginfo('name');
     $websiteInfo = get_bloginfo('url');
     $blogDescription = get_bloginfo('description');
